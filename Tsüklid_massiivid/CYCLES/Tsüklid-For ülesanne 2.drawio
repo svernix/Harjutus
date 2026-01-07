@@ -1,0 +1,143 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1023" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-0" value="// 2. &quot;Ruut&quot;&#xa;// tee muutuja &quot;ruudukülg&quot; milles on täisarv 0&#xa;// kuva kasutajale tekst millega küsid kasutajalt kui suurt ruutu ta tahab&#xa;// omista käsurealt saadud arv muutujasse &quot;ruudukülg&quot;&#xa;// kirjuta for tsükkel, tsükli tingimuse kontrolli pane i kontrollimisse muutuja &quot;ruudukülg&quot;&#xa;// tsükli sisse kirjuta sõne tüüpi muutuja, &quot;seeRida&quot;, kuhu omistad tühja sõne.&#xa;// tsükli sees on omakorda teine for tsükkel, ka selle tingimuse kontrolli pane i kontrollimisse muutuja &quot;ruudukülg&quot;&#39;&#xa;// nüüd sisemise tsükli sees, omista muutujale &quot;seeRida&quot; juurde liites sisse väärtus &quot;HH&quot; &#xa;// kui sisemine tsükkel on lõpetanud, siis kuva kasutajale see rida välja&#xa;// kui ka esimene tsükkel on lõpetanud, siis kuva kasutajale tekst &quot;tsüklid on lõpetanud&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="30" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-1" target="FZzbNrFCE_ANFTERFpP9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-2" target="FZzbNrFCE_ANFTERFpP9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-2" value="Tekita täisarvutüüpi muutuja &quot;ruudukülg&quot; kuhu omistad algväärtuse 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="340" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-4" target="FZzbNrFCE_ANFTERFpP9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-4" value="Kuva kasutajale tekst &quot;Kui suurt ruutu te tahate&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="430" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-6" target="FZzbNrFCE_ANFTERFpP9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-6" value="Oota kuni kasutaja sisestab käsureale muutujasse &quot;ruudukülg&quot; omistatava arvu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="525" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-8" target="FZzbNrFCE_ANFTERFpP9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-8" value="Seadista for-tsükkel, millel on tsükli töö jaoks muutuja &quot;i&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="630" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-10" target="FZzbNrFCE_ANFTERFpP9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-23" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZzbNrFCE_ANFTERFpP9-13">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-10" target="FZzbNrFCE_ANFTERFpP9-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="770" />
+              <mxPoint x="80" y="1430" />
+              <mxPoint x="335" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-39" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZzbNrFCE_ANFTERFpP9-38">
+          <mxGeometry x="0.653" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-10" value="Kas tsüklis olev muutuja &quot;i&quot; on väiksem kui arv muutujas &quot;ruudukülg&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="730" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-12" target="FZzbNrFCE_ANFTERFpP9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-12" value="Tekita sõne tüüpi muutuja &quot;seeRida&quot; millese omistame algväärtuseks &quot;&quot;." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="860" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-14" target="FZzbNrFCE_ANFTERFpP9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-14" value="Seadista teine for-tsükkel, millel on tsükli töö jaoks muutuja &quot;i&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="960" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-16" target="FZzbNrFCE_ANFTERFpP9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-20" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZzbNrFCE_ANFTERFpP9-19">
+          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-16" target="FZzbNrFCE_ANFTERFpP9-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1090" />
+              <mxPoint x="550" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-29" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZzbNrFCE_ANFTERFpP9-28">
+          <mxGeometry x="0.1491" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-16" value="Kas tsüklis olev muutuja &quot;i&quot; on väiksem kui arv muutujas &quot;ruudukülg&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="1080" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-18" target="FZzbNrFCE_ANFTERFpP9-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1250" />
+              <mxPoint x="530" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-18" target="FZzbNrFCE_ANFTERFpP9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-18" value="Lisa muutujale &quot;seeRida&quot; olemasolevale väärtuseöe sõne &quot;HH&quot;." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="1220" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-33" target="FZzbNrFCE_ANFTERFpP9-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1360" />
+              <mxPoint x="550" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-36" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZzbNrFCE_ANFTERFpP9-35">
+          <mxGeometry x="-0.6274" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-33" value="Kuva kasutajale muutuja &quot;seeRida&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="1330" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZzbNrFCE_ANFTERFpP9-37" target="FZzbNrFCE_ANFTERFpP9-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-37" value="Kuva kasutajale tekst &quot;tsüklid on lõpetanud&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="1450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZzbNrFCE_ANFTERFpP9-40" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="1560" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

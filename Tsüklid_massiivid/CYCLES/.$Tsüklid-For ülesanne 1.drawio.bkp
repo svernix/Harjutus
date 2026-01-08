@@ -1,0 +1,16 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="3939" dy="3571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="AEhxmOlAH8npi93buinD-0" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-980" y="-2300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AEhxmOlAH8npi93buinD-1" value="&lt;div&gt;// 1. &quot;prindi numbrid&quot;&lt;/div&gt;&lt;div&gt;// tee muutuja &quot;kuipalju&quot; milles on täisarv 0&amp;nbsp;&lt;/div&gt;&lt;div&gt;// kuva kasutajale tekst millega küsid kasutajalt mitu numbrit ta tahab&lt;/div&gt;&lt;div&gt;// omista käsurealt saadud arv muutujasse &quot;kuipalju&quot;&lt;/div&gt;&lt;div&gt;// kirjuta for tsükkel, tsükli teise parameetrisse - kontrolli aseta i vastu muutuja &quot;kuipalju&quot;&lt;/div&gt;&lt;div&gt;// tsükli tegevusena kuva kasutajale välja i, aga liida sellele üks juurde et lugemine algaks arvust 1&lt;/div&gt;&lt;div&gt;// peale tsüklit kuva kasutajale sõnum &quot;tsükkel lõppes&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1640" y="-2320" width="540" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

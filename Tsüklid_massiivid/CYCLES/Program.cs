@@ -128,6 +128,7 @@
              * siis kuvatakse kasutajale välja elemendid kakskümmend ja viiskümmend
              */
 
+            /*
             int[] apelsiiniMahl = [1, 50, 10, 15, 20];
             foreach (var arv in apelsiiniMahl)
             {
@@ -136,6 +137,7 @@
                     Console.WriteLine(arv);
                 }
             }
+            */
 
             // 2. "summeerimine"
             // kirjuta viie elemendiga massiiv, elemendid on 343,686,2300,4439,6996, muutuja nimi otsusta ise.
@@ -143,6 +145,12 @@
             // kirjuta foreach tsükkel, ja võta kollektsiooniparameetriks oma viie elemendiga massiivi muutuja nimetus
             // tsükli sisse liida oma täisarvu tüüpi muutujale elemendi sees olev arv juurde
             // peale tsüklit kuva kasutajale oma täisarvu tüüpi muutuja välja
+
+            int[] maasikas = [343, 686, 2300, 4439, 6996];
+            foreach (var arv in maasikas)
+            {
+
+            }
 
         }
     }

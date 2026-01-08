@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-0" value="&lt;div&gt;&amp;nbsp;// 2. &quot;summeerimine&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp;// kirjuta viie elemendiga massiiv, elemendid on 343,686,2300,4439,6996, muutuja nimi otsusta ise.&lt;/div&gt;&lt;div&gt;&amp;nbsp;// kirjuta täisarvu tüüpi muutuja mille sisse omistad väärtuse 0 ning mille nime otsustad ise&lt;/div&gt;&lt;div&gt;&amp;nbsp;// kirjuta foreach tsükkel, ja võta kollektsiooniparameetriks oma viie elemendiga massiivi muutuja nimetus&lt;/div&gt;&lt;div&gt;&amp;nbsp;// tsükli sisse liida oma täisarvu tüüpi muutujale elemendi sees olev arv juurde&lt;/div&gt;&lt;div&gt;&amp;nbsp;// peale tsüklit kuva kasutajale oma täisarvu tüüpi muutuja välja&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="130" width="580" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-1" target="-Rc0zbc-T6y3Vn_dCFiV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="707" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-2" target="-Rc0zbc-T6y3Vn_dCFiV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-2" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Tekkita muutuja &quot;maasikas&quot; kus asub massiiv millele omisatame algväärtuste kogumiku täisarvudega 343,686,2300,4439,6996&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="652" y="270" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-4" target="-Rc0zbc-T6y3Vn_dCFiV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-4" value="Tekkita ajutine muutuja &quot;arv&quot; millele omistatud algväärtuse 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="652" y="410" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-16" target="-Rc0zbc-T6y3Vn_dCFiV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-16" value="Seadista foreach tsükkel, kus elemendi ajutise muutuja nimi on &quot;arv&quot; ja kollektsiooni muutuja on &quot;maasikas&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="652" y="550" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-18" target="-Rc0zbc-T6y3Vn_dCFiV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-18" value="Liida ajutise muutuja &quot;arv&quot; väärtusesse muutuja &quot;maasikas&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="652" y="920" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-20" target="-Rc0zbc-T6y3Vn_dCFiV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-28" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Rc0zbc-T6y3Vn_dCFiV-24">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-20" target="-Rc0zbc-T6y3Vn_dCFiV-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="830" />
+              <mxPoint x="890" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-27" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Rc0zbc-T6y3Vn_dCFiV-26">
+          <mxGeometry x="-0.0254" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-20" value="kas ajutises muutujas &quot;arv&quot; olev väärtus on suurem kui 686?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="672" y="790" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-21" target="-Rc0zbc-T6y3Vn_dCFiV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-25" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Rc0zbc-T6y3Vn_dCFiV-23">
+          <mxGeometry x="-0.08" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Rc0zbc-T6y3Vn_dCFiV-21" target="-Rc0zbc-T6y3Vn_dCFiV-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="700" />
+              <mxPoint x="570" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-39" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Rc0zbc-T6y3Vn_dCFiV-38">
+          <mxGeometry x="-0.1184" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-21" value="Kas eilmine element oli kollektsioonis viimane element?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="683" y="660" width="168" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-29" value="Kuva kasutajale ajutise muutuja &quot;arv&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="652" y="1060" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rc0zbc-T6y3Vn_dCFiV-33" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="707" y="1190" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

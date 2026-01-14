@@ -54,7 +54,10 @@
             {
                 Console.WriteLine("Mis on CO2 tase?");
                 CO2tase = float.Parse(Console.ReadLine());
-                Console.WriteLine("Otsest ohtu ei ole");
+                if (CO2tase <= 40.000f)
+                {
+                   Console.WriteLine("Otsest ohtu ei ole");
+                } 
             }
                 Console.WriteLine("evakueeri hoonest, süsihappegaasi tase on liiga kõrgel");
                 

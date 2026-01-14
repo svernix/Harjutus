@@ -1,0 +1,22 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="uD4e-HkP0yTQG1UyjW17-0" value="// 2. &quot;vibumees&quot;&#xa; // tee muutuja &quot;mehike&quot; mille sees on täisarv 0&#xa; // tee muutuja &quot;vastus&quot; mille sees on tühi tekst&#xa; // kirjuta while tsükkel&#xa; // -&gt; while tsükli tingimuseks kirjuta kontroll:&#xa; //      mis kontrollib kas muutujas &quot;mehike&quot; on täisarv 5 või vähem&#xa; //      või&#xa; //      muutujas &quot;vastus&quot; on tekst &quot;jah&quot;&#xa; // tsükli tegevuseks küsi kasutajalt &quot;kas tahad mehikesse noole lasta?&quot;&#xa; // tsükli tegevuseks pane muutujasse &quot;vastus&quot; väärtus kasutajalt käsurea pealt &#xa; // tsükli tegevuseks kontrolli tingimuslausega kas vastus oli &quot;jah&quot;&#xa; // tsükli tegevuseks Kui tingimuslause vastus oli jah, siis:&#xa; // kuva kasutajale tekst &quot;mitu noolt lased?&quot;&#xa; // lisa muutujasse &quot;mehike&quot; kasutajalt saadud täisarv&#xa; // peale tsüklit kontrolli kas muutujas &quot;mehike&quot; olev arv on väiksem kui 5&#xa; // kui on väiksem kui 5 siis kuva sõnum &quot;mehike elab :D&quot;&#xa; // kõikidel muudel juhtudel kuva sõnum &quot;tapsid mehikese ära :c&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="450" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="uD4e-HkP0yTQG1UyjW17-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uD4e-HkP0yTQG1UyjW17-1" target="uD4e-HkP0yTQG1UyjW17-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uD4e-HkP0yTQG1UyjW17-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uD4e-HkP0yTQG1UyjW17-2" value="Tekkita muutuja &quot;mehike&quot; millele omistame algväärtuse 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="705" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

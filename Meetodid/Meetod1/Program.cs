@@ -15,9 +15,38 @@ namespace Meetod1
             //{
             //    Console.WriteLine(item);
             //}
+            List<string> otsitavadFilmid = new List<string> { "Terminator", "Vanamehe Film", "Kratt" };
+            IdentifyMovies(filmid,otsitavadFilmid);
+            
 
 
+        }
 
+        public static void IdentifyMovies(List<string> collection, List<string> filter)
+        {
+            string messages = "";
+            foreach (var movie in collection)
+            {
+                int itemnr = 0;
+                foreach (var filterItem in filter)
+                {
+                    if (itemnr ==  0)
+                    {
+                        messages += "I'll be back. \n";
+                    }
+                    else if (itemnr == 1)
+                    {
+                        messages += "Šnikurs\n";
+                    }
+                    else if (itemnr == 2)
+                    {
+                        messages += "Vaata et ta sul tehisplära ajama ei hakka\n";
+                    }
+                    itemnr++;
+                }
+                itemnr = 0;
+            }
+            Console.WriteLine(messages);
         }
 
         public static List<string> DoYouLikeThisMovie(List<string> collection, string movieToAdd)
@@ -88,6 +117,57 @@ namespace Meetod1
                 }
             }
             return siinOnFilmid;
+
+
+            //string kasutajaNimi = "Paul";
+            //string salasõna = "1234";
+            //while (kasutajaNimi == "Paul")
+            //{
+            //    Console.WriteLine("Mis on sinu nimi?");
+            //    kasutajaNimi = Console.ReadLine();
+            //    if (kasutajaNimi == "Paul")
+            //    {
+            //        Console.WriteLine("Kasutaja nimi on õige");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Isik pole registeeritud");
+            //    }
+
+            //    Console.WriteLine("Mis on parool");
+            //    salasõna = Console.ReadLine();
+            //    if (salasõna == "1234")
+            //    {
+            //        Console.WriteLine("Parool on õige");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{kasutajaNimi} parool on vale");
+            //    }
+
+            //}
+
+            //string[] loomad = new string[3];
+
+            //int loend = 0;
+
+            //while (loend < loomad.Length)
+            //{
+            //    Console.WriteLine($"Sisesta oma{loend + 1} lemmikloom nimi");
+            //    loomad[loend] = Console.ReadLine();
+            //    loend++;
+            //}
+
+            //Console.WriteLine($"Sa sisestasid {loend} lemmiklooma nimed");
+
+            //int valik = 0;
+
+            //do
+            //{
+            //    Console.WriteLine("Milline neist on su lemmikuim? (vali number 1-3)");
+            //    valik = int.Parse(Console.ReadLine());
+            //} while (valik < 1 || valik > 3);
+            //Console.WriteLine($"Sinu lemmikuim loom on: {loomad[valik - 1]}");
         }
     }
 }

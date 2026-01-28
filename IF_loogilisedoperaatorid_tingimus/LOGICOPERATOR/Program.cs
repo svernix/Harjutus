@@ -5,8 +5,13 @@
         static void Main(string[] args)
         {
             //tee neli bool-tüüpi muutujat,
-
             //nimedeks pane neile pliiatsid, paber, saag, lauad
+
+            string sisestus = "";
+            bool pliiatsid = false;
+            bool paber = false;
+            bool saag = false;
+            bool lauad = false;
 
             //küsi kasutajalt muutujasse "sisestus" vastus iga objekti
             //kohta küsimus "kas tal on X?" millele kasutaja saab vastata jah või ei
@@ -16,6 +21,31 @@
             //samamoodi kui ta on mingi objekti kohta vastanud jah, siis pane vastavasse muutujasse true
 
             //"kas sul on paber?" on vastus = "jah" siis paber = true jne
+
+            Console.WriteLine("Kas sul on pliiatsid");
+            sisestus = Console.ReadLine();
+            if (sisestus == "jah")
+            {
+                pliiatsid = true;
+            }
+            Console.WriteLine("Kas sul on paber");
+            sisestus = Console.ReadLine();
+            if (sisestus == "jah")
+            {
+                paber = true;
+            }
+            Console.WriteLine("Kas sul on lauad");
+            sisestus = Console.ReadLine();
+            if (sisestus == "jah")
+            {
+                lauad = true;
+            }
+            Console.WriteLine("Kas sul on saag");
+            sisestus = Console.ReadLine();
+            if (sisestus == "jah")
+            {
+                saag = true;
+            }
 
             //kui kõikides muutujates on vastus olemas, tee järgnevad tingimuslaused kombineerides mitu tingimust korraga
             //ja kasutades and, or ja not operaatoreid && || !
@@ -36,6 +66,31 @@
             //      |   jah     |   ei      |   ei      |   jah     ||  "sul on tööriistad, aga materjali mitte, ma ei oska öelda"
             //      |   ei      |   jah     |   jah     |   ei      ||  "sul on materjal, aga tööriistu mitte, mine k-rautasse"
             //      |  < kõik muud kombinatsoonid tingimustest >    ||  "tühjade kätega ei tee mitte midagi :c"
+
+            if (saag && lauad && !pliiatsid && !paber)
+            {
+                Console.WriteLine("Võiksid õppida tisleriks");
+            }
+            else if (!saag && !lauad && pliiatsid && paber)
+            {
+                Console.WriteLine("Võiksid õppida arhitektiks");
+            }
+            else if (saag && lauad && pliiatsid && paber)
+            {
+                Console.WriteLine("Võiksid õppida arhitektiks ja tisleriks, sul on kõik uksed avatud");
+            }
+            else if (saag && !lauad && pliiatsid && !paber)
+            {
+                Console.WriteLine("Sul on tööristad, aga materjali mitte, ma ei oska öelda");
+            }
+            else if (!saag && lauad && !pliiatsid && paber)
+            {
+                Console.WriteLine("Sul on materjal, aga tööriistu mitte, mine k-rautasse");
+            }
+            else
+            {
+                Console.WriteLine("Tühjade kätega ei tee mitte midagi :c");
+            }
         }
     }
 }
